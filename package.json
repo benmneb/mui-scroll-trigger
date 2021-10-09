@@ -1,7 +1,7 @@
 {
 	"name": "mui-scroll-trigger",
 	"version": "0.1.1",
-	"description": "Simple and convenient scroll-based transitions for React apps using MUI v5.",
+	"description": "Simple, lightweight and convenient scroll-based transitions for React apps using MUI v5.",
 	"main": "lib/index.js",
 	"module": "es/index.js",
 	"files": [

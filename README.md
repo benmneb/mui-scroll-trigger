@@ -2,7 +2,7 @@
     <h1><code>mui-scroll-trigger</code></h1>
 </div>
 <p align="center">
-  Simple and convenient scroll-based transitions for React apps using MUI v5. 
+  Simple, lightweight and convenient scroll-based transitions for React apps using MUI v5. 
 </p>
 <p align="center">
   <img src="https://img.shields.io/npm/v/mui-scroll-trigger?style=for-the-badge" />
@@ -56,9 +56,9 @@ export default function App() {
 }
 ```
 
-### 🎉 🥳 👯‍♀️
-
 ### ...but with _more options_.
+
+### 🎉 🥳 👯‍♀️
 
 Want to use a different transition? The `transition` prop accepts any of the [MUI v5 transitions](https://mui.com/components/transitions/) as lowercase strings.
 
