@@ -1,37 +1,45 @@
 {
-  "name": "mui-scroll-target",
-  "version": "1.0.0",
-  "description": "mui-scroll-target React component",
-  "main": "lib/index.js",
-  "module": "es/index.js",
-  "files": [
-    "css",
-    "es",
-    "lib",
-    "umd"
-  ],
-  "scripts": {
-    "build": "nwb build-react-component",
-    "clean": "nwb clean-module && nwb clean-demo",
-    "prepublishOnly": "npm run build",
-    "start": "nwb serve-react-demo",
-    "test": "nwb test-react",
-    "test:coverage": "nwb test-react --coverage",
-    "test:watch": "nwb test-react --server"
-  },
-  "peerDependencies": {
-    "react": "16.x"
-  },
-  "devDependencies": {
-    "nwb": "0.25.x",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
-  },
-  "author": "",
-  "homepage": "",
-  "license": "MIT",
-  "repository": "",
-  "keywords": [
-    "react-component"
-  ]
+	"name": "mui-scroll-trigger",
+	"version": "0.1.0",
+	"description": "Simple and convienent scroll-based transitions for React apps using MUI v5.",
+	"main": "lib/index.js",
+	"module": "es/index.js",
+	"files": [
+		"css",
+		"es",
+		"lib",
+		"umd"
+	],
+	"scripts": {
+		"build": "nwb build-react-component",
+		"clean": "nwb clean-module && nwb clean-demo",
+		"prepublishOnly": "npm run build",
+		"start": "nwb serve-react-demo",
+		"test": "nwb test-react",
+		"test:coverage": "nwb test-react --coverage",
+		"test:watch": "nwb test-react --server"
+	},
+	"peerDependencies": {
+		"@mui/material": "^5.0.1",
+		"prop-types": "^15.7.2",
+		"react": "^17.0.2"
+	},
+	"devDependencies": {
+		"@fontsource/fira-code": "^4.5.1",
+		"nwb": "0.25.x",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"typeit-react": "^2.0.3"
+	},
+	"author": "benmneb",
+	"homepage": "",
+	"license": "ISC",
+	"repository": "https://github.com/benmneb/mui-scroll-trigger",
+	"keywords": [
+		"material-ui",
+		"mui",
+		"useScrollTrigger",
+		"react transition group",
+		"react transition"
+	]
 }
