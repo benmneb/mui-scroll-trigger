@@ -14,7 +14,7 @@ export default function ScrollTrigger(props) {
 		appear,
 		children,
 		disabled,
-		disableHysteresis,
+		ignoreDirection: disableHysteresis,
 		onScroll,
 		target,
 		threshold,
@@ -43,9 +43,9 @@ export default function ScrollTrigger(props) {
 
 ScrollTrigger.propTypes = {
 	appear: PropTypes.bool,
-	children: PropTypes.node.isRequired,
+	children: PropTypes.element.isRequired,
 	disabled: PropTypes.bool,
-	disableHysteresis: PropTypes.bool,
+	ignoreDirection: PropTypes.bool,
 	onScroll: PropTypes.oneOf(['show', 'hide']),
 	target: PropTypes.oneOfType([PropTypes.object, PropTypes.node]),
 	threshold: PropTypes.number,
@@ -55,7 +55,7 @@ ScrollTrigger.propTypes = {
 ScrollTrigger.defaultProps = {
 	appear: false,
 	disabled: false,
-	disableHysteresis: false,
+	ignoreDirection: false,
 	onScroll: 'hide',
 	target: window,
 	threshold: 100,

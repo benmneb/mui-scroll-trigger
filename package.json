@@ -1,7 +1,7 @@
 {
 	"name": "mui-scroll-trigger",
-	"version": "0.1.0",
-	"description": "Simple and convienent scroll-based transitions for React apps using MUI v5.",
+	"version": "0.1.1",
+	"description": "Simple and convenient scroll-based transitions for React apps using MUI v5.",
 	"main": "lib/index.js",
 	"module": "es/index.js",
 	"files": [
@@ -25,11 +25,9 @@
 		"react": "^17.0.2"
 	},
 	"devDependencies": {
-		"@fontsource/fira-code": "^4.5.1",
 		"nwb": "0.25.x",
 		"react": "^17.0.2",
-		"react-dom": "^17.0.2",
-		"typeit-react": "^2.0.3"
+		"react-dom": "^17.0.2"
 	},
 	"author": "benmneb",
 	"homepage": "",
@@ -40,6 +38,7 @@
 		"mui",
 		"useScrollTrigger",
 		"react transition group",
-		"react transition"
+		"react transition",
+		"scroll transition"
 	]
 }
